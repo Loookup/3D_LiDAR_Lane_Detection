@@ -29,7 +29,7 @@ Fig. 6. Points from Sliding Window
 
 ### 4. Fit Lane with 3rd degree polynomial
 After getting lane points, smoothing lane with high order of polynomial because self-driving needs path planning on autonomous navigation. But, if it’s too high, it requires complexity and makes real-time navigation hard. So use 3rd degree polynomial and fit with Numpy package and get 4 coefficients of polynomial    
-like equation below. 
+like equation below.
 Equation 1. 3rd degree polynomial
 Fig. 7. Fitted Lane by 3rd degree polynomial 
 
